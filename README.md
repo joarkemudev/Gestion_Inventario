@@ -1,4 +1,4 @@
-inventory-management/
+GestionInventario/
 │
 ├── frontendig/                 # Aplicación React
 │   ├── public/

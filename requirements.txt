@@ -1,0 +1,61 @@
+# Django and REST framework
+Django==3.2.19
+djangorestframework==3.14.0
+
+# Database connectors
+mysqlclient==2.1.1
+djongo==1.3.6
+pymongo==3.12.3
+
+# CORS handling
+django-cors-headers==3.14.0
+
+# Environment variables management
+python-dotenv==1.0.0
+
+# Time zone handling
+pytz==2023.3
+
+# SQL parsing
+sqlparse==0.4.4
+
+# Improved WSGI server
+gunicorn==20.1.0
+
+# For working with JSON data
+simplejson==3.19.1
+
+# For handling file uploads
+Pillow==9.5.0
+
+# For generating fake data (useful for testing)
+Faker==18.9.0
+
+# For running background tasks
+celery==5.2.7
+
+# For caching
+django-redis==5.2.0
+
+# For debugging
+django-debug-toolbar==4.0.0
+
+# For testing
+pytest==7.3.1
+pytest-django==4.5.2
+
+# For API documentation
+drf-yasg==1.21.5
+
+# For pagination
+django-filter==23.2
+
+# For security
+django-allauth==0.54.0
+django-rest-auth==0.9.5
+
+# For deployment
+whitenoise==6.4.0
+
+# For asynchronous task queue
+redis==4.5.5

@@ -6,6 +6,7 @@ import { Select } from '@/components/ui/select'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Label } from '@/components/ui/label'
 import { toast } from 'react-hot-toast'
+import React, { FormEvent } from 'react';
 
 export default function RegisterInventory() {
   const [products, setProducts] = useState([])
@@ -29,7 +30,7 @@ export default function RegisterInventory() {
       toast.error('Por favor, complete todos los campos')
       return
     }
-    axios.post('/apiGi/inventory', {
+    axios.post('/apiGI/inventory', {
       product: selectedProduct,
       quantity: parseInt(quantity),
       delivered: false

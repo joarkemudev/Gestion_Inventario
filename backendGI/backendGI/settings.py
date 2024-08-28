@@ -87,6 +87,23 @@ DATABASES = {
         'PASSWORD': 'sads2017',
         'HOST': 'localhost',
         'PORT': '3306',
+    },
+    'mongodb': {
+        'ENGINE': 'djongo',
+        'NAME': 'igc',
+        'HOST': 'localhost',
+        'PORT': 27017,
+    }
+}
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'igc',
+        'USER': 'root',
+        'PASSWORD': 'sads2017',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
